@@ -1,0 +1,34 @@
+# Music Coding Project Rules
+
+## Code Style
+
+### No Magic Numbers
+- Extract all literal numbers to named constants
+- Constants should have descriptive names explaining their purpose
+- Place constants at the top of the file/cell in a dedicated section
+- Exception: 0, 1, -1 when used for indexing or simple increments
+
+### Examples
+```python
+# Bad
+return 69 + 12 * math.log2(freq / 440)
+
+# Good
+A4_FREQUENCY_HZ = 440
+A4_MIDI_NUMBER = 69
+NOTES_PER_OCTAVE = 12
+return A4_MIDI_NUMBER + NOTES_PER_OCTAVE * math.log2(freq / A4_FREQUENCY_HZ)
+```
+
+## Code Organization
+
+### Top-Down Structure
+- Main/high-level functions first
+- Helper functions below
+- Constants at the top
+
+### Function Design
+- Each function does one thing
+- Extract loop bodies into helper functions when logic is non-trivial
+- Use descriptive function names that explain what they do
+
