@@ -1,0 +1,17 @@
+# Music Coding Project Dependencies
+
+# MIDI playback and music notation
+scamp>=0.9
+
+# Interactive controls in Jupyter
+ipywidgets>=8.0
+
+# Numerical computing for waveform generation
+numpy>=1.20
+
+# Jupyter notebook environment
+jupyter>=1.0
+
+# MIDI file manipulation (for WAV export)
+mido>=1.3
+

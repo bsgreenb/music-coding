@@ -1,0 +1,2 @@
+# Music coding shared library
+
