@@ -4,7 +4,7 @@
 scamp>=0.9
 
 # Interactive controls in Jupyter
-ipywidgets>=8.0
+ipywidgets<8.0
 
 # Numerical computing for waveform generation
 numpy>=1.20
